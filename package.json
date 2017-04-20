@@ -1,0 +1,24 @@
+{
+  "name": "yupan.github.io",
+  "version": "1.0.0",
+  "description": "我的个人博客：<http://https://marksjin.github.io>，欢迎 Star 和 Fork。",
+  "main": "index.js",
+  "dependencies": {
+    "js-yaml": "^3.8.3",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarksJin/yupan.github.io.git"
+  },
+  "author": "my",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarksJin/yupan.github.io/issues"
+  },
+  "homepage": "https://github.com/MarksJin/yupan.github.io#readme"
+}

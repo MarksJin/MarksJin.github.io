@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+- 2.1
+
+# 分支白名单
+branches:
+  only:
+  - gh-pages     # 测试 gh-pages 分支
+  - /pages-(.*)/ # 测试每一个以 "pages-" 开头的分支
