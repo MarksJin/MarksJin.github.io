@@ -1,6 +1,4 @@
-![](https://api.travis-ci.org/MarksJin/marksjin.github.io.svg?branch=gh-pages)
-
-# 宇子集
+# 宇子集 · ![](https://api.travis-ci.org/MarksJin/marksjin.github.io.svg?branch=gh-pages)
 
   突然感觉想写点什么，然后就创建了这一个博客，用来记录自己之后经历的种种！
 
