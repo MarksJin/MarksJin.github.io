@@ -1,7 +1,11 @@
-language: node_js
-node_js:
- - '0.8'
- - '0.10'
- - '0.11'
+language: ruby
+rvm:
+- 2.1
+# 假如 bundler 被使用，安装时将运行 `bundle install`.
+script: ./script/cibuild
 
-script: make test
+# 分支白名单
+branches:
+  only:
+  - gh-pages     # 测试 gh-pages 分支
+  - /pages-(.*)/ # 测试每一个以 "pages-" 开头的分支
