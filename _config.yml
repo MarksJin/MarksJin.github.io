@@ -2,25 +2,25 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: https://marksjin.github.io/
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
-favicon: /favicon.ico
+title: 宇字集
+subtitle: "梦想总是要有的"
+description: "靳宇攀的个人博客"
+keywords: 宇字集, 靳宇攀, marksjin
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
+auto_spacing: true
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: Sogou, Inc.
-organization_url: https://www.sogou.com
+author: 靳宇攀
+organization: baidu, Inc.
+organization_url: https://www.baidu.com
 location: Beijing, China
-email: chumpma@gmail.com
+email: 18810005642@gmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -77,17 +77,12 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: marksjin/marksjin.github.io
 
 # ---------------- #
 #      Socials     #
 # ---------------- #
-github_username: mzlogin
-douban_username: freedim
-facebook_username: mzlogin
-weibo_username: mzlogin
-zhihu_username: mzlogin
-twitter_username: mzlogin
+github_username: marksjin
 
 # ---------------- #
 #      Comments    #
@@ -100,16 +95,3 @@ duoshuo_username: yupan
 disqus_username: yupan
 # 在使用 disqus 的时候可点击显示多说评论框
 lazy_load_duoshuo: true
-
-# ---------------- #
-#    Analytics     #
-# ---------------- #
-google:
-    analytics_id: UA-80669434-1
-
-# ---------------- #
-#      Datas       #
-# ---------------- #
-skill_software_keywords: [Java, C++, Python, Design Patterns]
-skill_mobile_app_keywords: [Android, Reverse Engineering]
-skill_windows_keywords: [Win32 SDK, DuiLib, WTL, COM, WinDbg]

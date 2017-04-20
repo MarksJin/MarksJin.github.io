@@ -31,6 +31,16 @@ layout: default
   <div class="column three-fourths" >
     <article class="article-content markdown-body">
     {{ content }}
+      {{site.images}}
+      {% for file in site.images %}
+        <span>
+          {{file.path}}
+          <!--{{file.modified_time}}-->
+          <!--{{file.name}}-->
+          <!--{{file.basename}}-->
+          <!--{{file.extname}}-->
+        </span>
+      {% endfor %}
     </article>
     <div class="share">
       {% include sns-share.html %}
